@@ -54,8 +54,9 @@ gigascience-ref: REFXXX
 
 #Introduction
 The amount of data acquired for an fMRI experiment dimension wise is very large and a challenge for neuroscience studies, in particular for data analysis and visualization.
-There are different tools developed to address such massive data challenges, in particular, the analysis needs for different projects may require new tools.
-The goal of this Brainhack project is to build a flexible utility to analyze fMRI experimental results.
+Diverse tools have been developed to confront these challenges, but their analytical results can differ.
+Addressing those differences is not facilitated by existing tools.
+The goal of this Brainhack project was to build a flexible utility to analyze fMRI experimental results.
 This utility is called NeuroView.
 NeuroView allows researchers to extend the visualizations to their context: every visual behavior or interactions of this tool is customizable.
 We implemented NeuroView to work in Web-browsers, using JavaScript and the libraries D3.js and jQuery.
@@ -105,6 +106,6 @@ Thus, highlighted regions are correlated (or anti-correlated) given the chord co
 This is an initial version of a browser-based neuroimage viewer.
 The main focus is to develop an embeddable viewer, instead of a standalone desktop software.
 By doing so, research results can be presented on interactive views, enriching their analysis and interpretation.
-In our case study, NeuroView facilitates quick evaluation of features for machine learning algorithms, and promote discussion about them, since the results were enlightened among researchers.
+In our case study, NeuroView facilitates quick evaluation of features for machine learning algorithms, and promotes discussion about them, since the results will inform researchers about their data.
 
-As further work, we aim to directly load Nifti images at client-side and support some AFNI's features, such as voxel clustering.
+In future work, we aim to directly load Nifti images at client-side and support some AFNI features, such as voxel clustering.
