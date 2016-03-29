@@ -62,7 +62,7 @@ NeuroView allows researchers to extend the visualizations to their context: ever
 We implemented NeuroView to work in Web-browsers, using JavaScript and the libraries D3.js and jQuery.
 
 #Results
-We create three tools using NeuroView to best analyze our research results: CC200 search, SVM coeffs and Connectivity matrix.
+We create three tools using NeuroView to best analyze our research results: CC200 search, SVM coefficients and Connectivity matrix.
 Each tool is used to aid the analysis of results in Machine Learning tasks.
 Each of these tools is described below in detail.
 
@@ -72,7 +72,7 @@ As as initial approach, the CC200 \cite{Craddock2012} parcellation method was us
 Since we parcellate our data into CC200's ROIs in most of our studies, the identification of atlas regions became necessary to compare with results found in the literature.
 The search can be performed in two manners: it is possible to search for an atlas region (e.g. Putamen) and retrieve which parcels are included in this region, and it is possible to click an ROI in NeuroView to retrieve which atlas regions include the specific parcel.
 
-## \texttt{SVM coeffs}:
+## \texttt{SVM coefficients}:
 For the second tool, we created a user interface to identify the ROIs that contribute to the classification in a Support Vector Machine.
 The classification method uses task-based fMRI features to identify good and poor readers \cite{Salles2013}.
 Given a list of most relevant features, as shown in Figure \ref{fig:svm_coeffs}, we can show the features' parcel in NeuroView and identify to which atlas regions this parcel belongs to.
@@ -80,7 +80,7 @@ Given a list of most relevant features, as shown in Figure \ref{fig:svm_coeffs},
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.45\textwidth]{figs/svm_coeffs.png}
-\caption{SVM coeffs tool showing the most relevant feature in a classification task.}
+\caption{SVM coefficients tool showing the most relevant feature in a classification task.}
 \label{fig:svm_coeffs}
 \end{figure}
 
