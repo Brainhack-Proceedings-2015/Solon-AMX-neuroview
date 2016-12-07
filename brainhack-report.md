@@ -49,7 +49,7 @@ contrib: ASH wrote the software, and ASH, FM, ARF, and AB wrote the report.
 
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100237}{doi:10.5524/100237}
 ...
 
 #Introduction
